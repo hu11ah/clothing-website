@@ -1,0 +1,78 @@
+body {
+    background-image: url("/images/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+header {
+    display: flex;
+    height: 30px;
+    padding: 1em;
+    margin-bottom: 25px;
+    border: solid black 2px;
+    background-image: url("/images/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header > .logo > img {
+    height: 60px;
+}
+
+header nav ul li {
+    display: inline;
+    padding: 1em;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    list-style: none;
+}
+
+header > .cart-button > img {
+    position: absolute;
+    width: 50px;
+    right: 0;
+    padding-right: 1em;
+}
+
+main {
+    height: 30vh;
+    width: 70vh;
+    margin-left: 6em;
+    margin-top: 1em;
+    border: solid black 2px;
+    position: absolute;
+    /* white-space: nowrap; */
+}
+
+main > .arrow-buttons > img {
+    padding-top: 5em;
+    max-width: 25px;
+    margin-left: 3em;
+}
+
+main > .subtitle {
+    background-color: pink;
+    border: solid 2px;
+    width: 150px;
+    height: 10px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 1em;
+}
+
+main > .header-h1 {
+    font-weight: 300;
+    font-size: 25px;
+}
+
+.header-image > img {
+    height: 300px;
+    width: 300px;
+    position: relative;
+    left: 420px;
+    bottom: -16px;
+}
